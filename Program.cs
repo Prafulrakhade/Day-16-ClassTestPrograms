@@ -22,7 +22,25 @@ namespace ExamTestProblems
             generic.getGen(intArray);
             generic.getGen(doubleArray);
             generic.getGen(charArray);
-            
+
+            ListExample list = new ListExample();
+            list.food();
+
+            BinarySearchTree tree = new BinarySearchTree();
+            tree.Insert(44);
+            tree.Insert(45);
+            tree.Insert(50);
+            tree.Insert(17);
+            tree.Insert(23);
+            tree.Insert(12);
+            tree.Insert(19);
+            tree.Insert(54);
+            tree.Insert(9);
+            tree.Insert(14);
+            tree.Insert(67);
+            tree.Insert(76);
+            tree.Insert(72);
+
         }
     }
 }
